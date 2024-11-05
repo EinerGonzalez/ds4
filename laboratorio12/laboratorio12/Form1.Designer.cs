@@ -48,6 +48,7 @@
             label1.Size = new Size(188, 32);
             label1.TabIndex = 0;
             label1.Text = "calculo distancia";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -84,7 +85,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(234, 268);
+            button1.Location = new Point(12, 129);
             button1.Name = "button1";
             button1.Size = new Size(123, 48);
             button1.TabIndex = 5;
@@ -94,7 +95,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(531, 268);
+            button2.Location = new Point(12, 265);
             button2.Name = "button2";
             button2.Size = new Size(144, 48);
             button2.TabIndex = 6;
@@ -104,7 +105,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(372, 270);
+            button3.Location = new Point(7, 193);
             button3.Name = "button3";
             button3.Size = new Size(139, 46);
             button3.TabIndex = 7;
@@ -146,6 +147,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
