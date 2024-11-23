@@ -11,9 +11,12 @@
     <form id="form1" runat="server">
          </div> 
         <asp:Label ID="Label1" runat="server" Text="introduzca los numeros a sumar"></asp:Label>
-        </div>
+        
         <div>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server">
+
+          
+              </asp:TextBox><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><div>
         </div>
          </div> 
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
